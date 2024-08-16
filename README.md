@@ -1,2 +1,2 @@
 # Database_Java
-A java project where database CURD operations are performed (create, upadate, read, delete) using Mysql database.
+A java project which handles CURD operations (create, update, read, delete) on data within a MYSQL database.
