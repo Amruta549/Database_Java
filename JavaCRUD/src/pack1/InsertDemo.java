@@ -30,7 +30,7 @@ public class InsertDemo {
 		
 		Class.forName("com.mysql.cj.jdbc.Driver");
 		//System.out.println("Driver class Successfully loaded");
-		Connection conn=DriverManager.getConnection("jdbc:mysql://localhost:3306/db","root","amruta123");
+		Connection conn=DriverManager.getConnection("jdbc:mysql://localhost:3306/db","root","password");
 		//PreparedStatement p=conn.prepareStatement("insert into student values('rita','101','CSE','rita@gmail.com','female')");
 		// giving variable as input
 		//PreparedStatement p=conn.prepareStatement("insert into student values('"+name+"','"+rollno+"','"+branch+"','"+email+"','"+gender+"')");
