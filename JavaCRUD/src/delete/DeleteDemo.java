@@ -16,7 +16,7 @@ public class DeleteDemo {
 		String email=sc.next();
 		Class.forName("com.mysql.cj.jdbc.Driver");
 		
-		Connection conn=DriverManager.getConnection("jdbc:mysql://localhost:3306/db","root","amruta123");
+		Connection conn=DriverManager.getConnection("jdbc:mysql://localhost:3306/db","root","password");
 		PreparedStatement p=conn.prepareStatement("delete from student where rollno=?");
 		p.setString(1,email);
 		int cnt= p.executeUpdate();
