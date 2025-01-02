@@ -15,7 +15,7 @@ public class ShowDemo {
 		
 		Class.forName("com.mysql.cj.jdbc.Driver");
 		//System.out.println("hello");
-		Connection conn=DriverManager.getConnection("jdbc:mysql://localhost:3306/db","root","amruta123");
+		Connection conn=DriverManager.getConnection("jdbc:mysql://localhost:3306/db","root","password");
 		PreparedStatement p=conn.prepareStatement("select * from student");
 		
 		ResultSet rs=p.executeQuery();
